@@ -180,8 +180,8 @@ return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 function radianToPosition (radiants) {
-  const cos = Math.cos(radiants);
-  const sin = Math.sin(radiants)
+    const cos = Math.cos(radiants);
+    const sin = Math.sin(radiants)
     console.log(radiants, sin, cos);
   console.log(radiants, sin, cos);
 

@@ -25,6 +25,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: var(--ff-primary);
   color: var(--clr-grey-1);
@@ -35,6 +36,7 @@ body {
 ul {
   list-style-type: none;
 }
+
 a {
   text-decoration: none;
 }
