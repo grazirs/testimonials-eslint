@@ -1,0 +1,44 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true
+  },
+  "extends": "standard",
+  "overrides": [],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "rules": {
+    "semi": [
+      "error",
+      "always"
+    ],
+    "object-curly-spacing": "warn",
+    "array-bracket-spacing": "warn",
+    "space-in-parens": "warn",
+    "quotes": [
+      "warn",
+      "single"
+    ],
+    "no-unused-vars": "off",
+    "no-trailing-spaces": "warn",
+    "eol-last": "warn",
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 2,
+        "maxEOF": 0,
+        "maxBOF": 0
+      }
+    ],
+    "no-dupe-class-members": "error",
+    "comma-dangle": [
+      "warn",
+      "always-multiline"
+    ],
+    "no-console": "warn",
+    "no-magic-numbers": "warn",
+    "eqeqeq": "warn"
+  }
+}
